@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Nunito:wght@200;300;400;500;600;700&display=swap');
+$black-coffee: #3a3335ff;
+$quinacridone-magenta: #892948ff;
+$ruby: #d81e5bff;
+$amaranth: #e43955ff;
+$tart-orange: #f0544fff;
+$vivid-tangerine: #f7a292ff;
+$papaya-whip: #fdf0d5ff;
+$eggshell: #e2e4d4ff;
+$opal: #c6d8d3ff;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Manrope', sans-serif;
+}

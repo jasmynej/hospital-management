@@ -1,0 +1,123 @@
+@import "../../../index.scss";
+
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    padding: none;
+}
+
+.admin-nav {
+    width: 100%;
+    height: 10vh;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 2px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    &-search {
+        margin-left: 10px;
+
+        button {
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 5px;
+            margin-left: 5px;
+            border: none;
+            border: 2px solid $tart-orange;
+            background-color: transparent;
+
+            &:hover{
+                background-color: $tart-orange;
+                color: white;
+            }
+        }
+
+        input {
+            font-family: 'Nunito', sans-serif;
+            width: 200px;
+            padding:10px;
+            border: 1px solid gainsboro;
+            border-radius: 2px;
+           
+        }
+    }
+    &-controls {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    &-logo {
+        font-size: 40px;
+        color: $tart-orange;
+    }
+}
+
+.admin-bottom {
+    display: flex;
+}
+.admin-side-nav {
+    width: 80px;
+    height: 90vh;
+    border-right:2px solid gainsboro ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-size: 30px;
+    }
+}
+
+.admin-content {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    overflow: scroll;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.dashboard-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 11px 17px 39px 0px rgba(217,217,217,0.6);
+    h3 {
+        font-size: 30px;
+    }
+    i{
+        font-size: 40px;
+    }
+
+    span {
+        color: gray;
+        font-weight: 200;
+    }
+
+    &:hover {
+        border: 2px solid $tart-orange;
+    }
+}
+
+.admin-chart {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+}
